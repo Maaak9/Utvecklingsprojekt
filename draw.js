@@ -53,7 +53,7 @@ module.exports ={
       for(var i = 0; i<this.numberOfPlayers; i++){
         var x = Math.random()*500;
         x = Math.round(x);
-        var y = Math.random()*500;
+        var y = Math.random()*300;
         y = Math.round(y);
         this.playerComponents[i] = new component(70, 100, "black", x, y);
       }
